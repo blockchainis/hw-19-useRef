@@ -12,7 +12,7 @@ export default function Chat() {
   return (
     <>
       <input value={text} onChange={(e) => setText(e.target.value)} />
-      <button onClick={handleSendLastChat}>Send</button>
+      <button onClick={handleSendLastChat}>채팅 보내기</button>
     </>
   );
 }
